@@ -19,6 +19,12 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
 
+      - name: Decode debug keystore
+        run: cat debug.keystore.base64 | base64 --decode > debug.keystore
+
+      - name: Create .env file
+        run: cp .env.example .env
+
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@v3
 
