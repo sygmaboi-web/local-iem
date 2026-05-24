@@ -1,0 +1,6 @@
+{
+  "name": "LocalIEM",
+  "description": "Wireless In-Ear Monitor (IEM) ultra-low latency audio streaming via local Wi-Fi and WebRTC.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
